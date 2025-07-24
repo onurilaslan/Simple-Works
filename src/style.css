@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: center;
+}
+
+button,
+a {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 600px) {
+  #quote-box {
+    width: 90%;
+  }
+}
