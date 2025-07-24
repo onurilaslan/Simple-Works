@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.editor-preview {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#editor, #preview {
+  width: 100%;
+  max-width: 45%;
+  height: 400px;
+  padding: 1rem;
+  background: white;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #editor, #preview {
+    max-width: 100%;
+  }
+}
