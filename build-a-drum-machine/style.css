@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#display {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pad-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  background: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 8px;
+  user-select: none;
+}
+
+.drum-pad:active {
+  background: #0056b3;
+}
